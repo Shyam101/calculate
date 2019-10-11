@@ -581,7 +581,11 @@ public class Display extends Fragment {
                        } else {
                            dd = Float.toString(ans);
                        }
-                       omg.setans("=" + dd);
+                      // omg.setans("=" + dd);
+                    
+                       omg.msg(dd);
+                    omg.setans(" ");
+                    
                        string = dd;
                        de=dd;
                        dd = "";
